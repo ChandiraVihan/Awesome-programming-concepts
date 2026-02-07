@@ -23,7 +23,7 @@ class Smartphone{
  public Smartphone(String brand, int capacity, String processor){
  	this.brand = brand;
 	this.battery = new Battery(capacity); 
-	//this is a part of the while phone so the object battery will be created inside object smartphone
+	//this is a part of the whole phone so the object battery will be created inside object smartphone
 
 	this.processor = new Processor(processor); //same here 
 
